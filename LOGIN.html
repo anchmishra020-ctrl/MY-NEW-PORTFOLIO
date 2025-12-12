@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="LOGIN.css">
+    <script>
+        function validate(){
+            let user=document.getElementById("user").value;
+            let pass=document.getElementById("pass").value;
+            if( user == ""){
+                alert("Please enter username");
+                return false;
+            }
+
+            if(pass === ""){
+                alert("Please enter password");
+                return false;
+            }
+            alert("Login successful !");
+            return true;
+        }
+    </script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <form onsubmit="return validate()"; action="PORTFOLIO.html" target="_blank" class="head">
+            <div class="h">
+                <h1>Login</h1>
+            </div>
+            <div class="input">
+                <input type="text" name="user" placeholder="User name" id="user">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M7.5 6.5C7.5 8.981 9.519 11 12 11s4.5-2.019 4.5-4.5S14.481 2 12 2 7.5 4.019 7.5 6.5zM20 21h1v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h17z"></path></svg>
+            </div>
+            <div class="pass">
+                <input type="password" name="pass" id="pass" placeholder="password">
+                <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+fill="currentColor" viewBox="0 0 24 24" >
+<!--Boxicons v3.0.6 https://boxicons.com | License  https://docs.boxicons.com/free-->
+<path d="M6 22h12c1.1 0 2-.9 2-2v-9c0-1.1-.9-2-2-2h-1V7c0-2.76-2.24-5-5-5S7 4.24 7 7v2H6c-1.1 0-2 .9-2 2v9c0 1.1.9 2 2 2M9 7c0-1.65 1.35-3 3-3s3 1.35 3 3v2H9zm-3 4h12v9H6z"></path>
+</svg>
+    <div class="bento">
+        <div class="n1"> <p>Remember me  <input type="checkbox"></p></div>
+        <div class="n2"><p><a href="#">forgot password ?</a></p></div>
+      
+        <div class="n5"><span class="n4"><button type="submit">Login</button> </span></div>
+    </div>
+    <p class="g">Don't have account? <a href="#">Register</a></p>
+    </div>
+    </form>
+    
+</body>
+</html>

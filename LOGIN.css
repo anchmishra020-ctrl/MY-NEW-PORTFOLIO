@@ -1,0 +1,139 @@
+ *{
+            padding: 0%;
+            margin:0%;
+            box-sizing : border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .wrapper{
+                height: 100vh;
+                width : 100vw;
+                background-image: url(back.jpg);
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+        }
+    h1{
+            text-align:center;
+            color:aliceblue;
+            margin-top:5vh;
+            
+          
+        }
+        .head{
+            height:60vh;
+            width: 30vw;
+            background-color: white;
+            background: transparent;
+              border :2px solid white;
+              backdrop-filter: blur(6px);
+              border-radius: 10px;
+              text-align: center;
+              /* background-image: linear-gradient(to right, purple,blue); */
+        }
+       .input{
+        text-align: center;
+        margin-top:5vh;
+        border-radius: 10px;
+       
+        
+       }
+       .pass{
+         text-align: center;
+        margin-top:5vh;
+        border-radius: 10px;
+       }
+       .user, .pass{
+        margin-bottom: 2rem;
+       }
+       
+       .input ::placeholder{
+        padding: 10px;
+        color:aliceblue;
+       }
+        .pass ::placeholder{
+        padding: 10px;
+        color:aliceblue;
+       }
+       .input input{
+        height: 40px;
+        width:80%;
+        background: transparent;
+        border: 1px solid white;
+        border-radius: 10px;
+       }
+       .pass input{
+        height: 40px;
+        width:80%;
+        background: transparent;
+        border: 1px solid white;
+        border-radius: 10px;
+       }
+       svg{
+        position: relative;
+        right:40px;
+        top:5px;
+       }
+      .bento{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        gap:10px;
+        width : 25vw;
+        margin-top: 2vh;
+      }
+       .n1{
+        position: relative;
+        left: 18px;
+        color:aliceblue;
+       }
+       .n2{
+        text-align: right;
+        color:aliceblue;
+       }
+      .n3{
+        grid-column: span 2;
+        /* background-image: linear-gradient(to right, purple,blue); */
+      }
+      .n4{
+        position:relative;
+        left: 23vh;
+        color: wheat;
+        
+      }
+      .n3 input{
+          background-image: linear-gradient(to right, rgb(122, 6, 122),blue);
+            border-color:wheat;
+      }
+      a{
+        text-decoration: black underline;
+        color:aliceblue
+      }
+      input[type="checkbox"]{
+       position: relative;
+       top: 3.5px;
+        width: 18px;
+        height: 18px;
+      }
+      .g{
+        position: absolute;
+        top : 50vh;
+        left:7vw;
+        color:aliceblue;
+        text-align: center;
+        margin-top: 2vh;
+      }
+      button{
+        border-radius: 12px;
+        border:1px solid white;
+        color: aliceblue;
+        background-image: linear-gradient(to right, rgb(122, 6, 122),blue);
+         height: 6vh;
+        width:23vw;
+      }
+      .n5{
+        position: absolute;
+        right: 15vw;
+        top:42vh;
+      }

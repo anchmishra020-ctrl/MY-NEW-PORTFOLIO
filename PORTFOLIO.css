@@ -1,0 +1,180 @@
+  .container{
+            background-color: #041416;
+            height: 100vh;
+            width:100vw;
+        }
+        header{
+            background-color: black;
+            height:10vh;
+            width:100vw;
+        }
+        h1,p{
+            display: inline-block;
+        }
+        .h{
+            margin-right: 2vw;
+            position:relative;
+            left:62vw;
+             font-size: 20px;
+             bottom : 1vh;
+        }
+        .name{
+            color: #862116;
+            position:relative;
+            left:4vw;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: 400px;
+        }
+        span{
+            position: relative;
+            top:0.5vh;
+            color:azure;
+        }
+        a{
+            color: burlywood;
+            text-decoration: none;
+        }
+        a:active{
+            color:darkgoldenrod
+        }
+        .s1{
+            color:#BBB6A5;
+            position:relative;
+            top:25vh;
+            left:13vw;
+            font-size:50px;
+        }
+        .img{
+            height:35vh;
+            width :20vw;
+            border-radius :50%;
+            border : 2px solid #DEB887;
+            position : absolute;
+            top:30vh;
+            left:65vw;
+        }
+        .s2{
+            color:#BBB6A5;
+            position:relative;
+            top:32vh;
+            right:23.5vw;
+            font-size:20px;
+        }
+        .icon1{
+            position: absolute;
+            top:65vh;
+            right:75vw;
+            font-size:35px;
+
+
+            
+        }
+        .icon2{
+            position: absolute;
+            top:65vh;
+            right:70vw;
+             font-size:35px
+            
+        }
+        h2{
+            text-align: center;
+            color: #862116;
+        }
+        /* .f3{
+            height : 40vh;
+            width:90vw;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top:100vh;
+            left: 15vw
+            
+        } */
+        .s3{
+             font-size:20px;
+            position: absolute;
+            top:100vh;
+            left: 15vw;
+            color: #DEB887;
+        }
+        .h2{
+            position: absolute;
+            top:90vh;
+            left : 50vw;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-decoration: #BBB6A5 underline;
+        }
+        .h3{
+             position: absolute;
+            top:140vh;
+            left : 50vw;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-decoration: #BBB6A5 underline;
+        }
+        .line{
+             position: absolute;
+            top:160vh;
+            height:10vh;
+            width:20vw;
+            border:2px solid #DEB887;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 2px 6px#DEB887;
+        }
+        .f4{
+            position : absolute;
+            left:20vw;
+        }
+         .f5{
+            position : absolute;
+            left:60vw;
+        }
+        .f6{
+             position : absolute;
+            left:60vw;
+            margin-top:20vh;
+        }
+        .f7{
+            position : absolute;
+            left:20vw;
+            margin-top:20vh;
+        }
+        .icon3{
+             color:azure;
+             font-size: 20px;
+        }
+        .ani{
+            border : 2px solid #DEB887;
+            height : 15vh;
+            width:7vw;
+            background-color: blanchedalmond;
+            position: absolute;
+            left:45vw;
+            top:70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            animation: move 3s ease-in 0s infinite alternate;
+
+        }
+        @keyframes move{
+            0%{
+                color:black;
+                font-family: 'Times New Roman', Times, serif;
+                border-radius: 50%;
+            }
+            50%{
+                border-radius: 30%;
+                font-size:10px;
+                background-color: #0a2a2e;
+            }
+            100%{
+                border-radius: 50%;
+                color:#041416;
+                background-color: #041416;
+            }
+
+        }
